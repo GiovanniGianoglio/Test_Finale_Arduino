@@ -14,7 +14,7 @@ void setup() {
 void loop() {
   // 1. Misurazione della distanza
   digitalWrite(trigPin, LOW);
-  delayMicroseconds(4);
+  delayMicroseconds(2);
   digitalWrite(trigPin, HIGH);
   delayMicroseconds(10);
   digitalWrite(trigPin, LOW);
